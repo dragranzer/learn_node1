@@ -1,7 +1,7 @@
-var http = require('http');
-var fs = require('fs');
-var express = require('express');
-var app = express();
+let http = require('http');
+let fs = require('fs');
+let express = require('express');
+let app = express();
 
 const PORT=8080; 
 app.use('/img', express.static('img')); 
